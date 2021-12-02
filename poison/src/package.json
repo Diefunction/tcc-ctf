@@ -1,0 +1,17 @@
+{
+    "name": "poison",
+    "version": "1.0.0",
+    "description": "poison and use exceptions to get the flag: /usr/src/app/flag.txt",
+    "private": true,
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "capture the flag"
+    ],
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

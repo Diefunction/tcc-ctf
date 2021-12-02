@@ -1,0 +1,79 @@
+{
+    "services": {
+        "Security": [{
+                "name": "Cyber Investigate (IR)",
+                "description": "TCC provides a very well-organized Incident Response service, as the team carefully plans and implements a set of actions to immediately contain the impacts of breaches. We quickly identify the root causes, attacker’s motives and foothold along with detailed tailored recommendations and remedial plans to prevent future incidents."
+            },
+            {
+                "name": "Cyber Intrude (VAPT)",
+                "description": "TCC’s Cyber Intrude is a penetration testing service that helps clients proactively identify the security vulnerabilities in the organization’s IT systems, and provides them with clear and actionable recommendations to enhance security posture, reduce business risks and professionally interdict potential future attacks."
+            },
+            {
+                "name": "Cyber Review",
+                "description": "Cyber Review is a Configuration and Architecture Review services designed to help in analyzing the current architecture and define the applicable weaknesses and how to mitigate and fine tune them. We innovated this service to support reducing the overall risk exposure by identifying gaps and recommending improvements to achieve a robust security infrastructure."
+            },
+            {
+                "name": "Governance,Risks and Compliance (GRC)",
+                "description": "TCC implements a robust GRC services that meets business requirements, based on national and international standards such as ECC- 1: 2018 and ISO 27001. Also, it aligns with specific frameworks such as SAMA and COBIT. In addition, TCC offers auditing services on national and international standards to identify gaps and ensure compliance."
+            },
+            {
+                "name": "Cyber Assure",
+                "description": "Cyber Assure is a unique compromise assessment service that helps organizations evaluate the overall security posture as well as discover potential unknown threats that may exist in the environment. The compromise assessment focuses on uncovering malware or advanced persistent threats (APT) that may have evaded the organization’s currently implemented security controls and infected the assets, and proposing immediate remediation actions to deal with the compromise."
+            },
+            {
+                "name": "Security Engineering",
+                "description": "The Security Engineering Department provides technical advice and guidance to security sectors seeking specialized intelligence solutions and innovative physical security systems, by helping them translate their requirements into technical specifications and providing a complete host of high-tech solutions and services (E2ES) through a network of specialized technology experts, as well as ensuring knowledge transfer and capability building."
+            }
+        ],
+        "Digital": [{
+                "name": "Customer Portal and Apps",
+                "description": "Our Digital Services team continually executes the best solutions for you by providing end-to-end solutions and managing mobile field service, sales and delivery teams, where clients can set the rules and parameters that best suit their operations."
+            },
+            {
+                "name": "Identity Management",
+                "description": "Through our outstanding identity management efforts, we achieve the highest level of access control to user information. Our digital platform is able to identify a group of people, whether employees, customers, citizens, etc., and provide the authorization to access certain applications, systems, or networks in accordance with the access authorization levels associated with the right identity."
+            },
+            {
+                "name": "Payment Solutions",
+                "description": "We offer a number of the best secured services and products. TCC provides a Payment Solution Service which is a gateway that allows smooth financial transactions through different payment methods in a secure and encrypted way."
+            },
+            {
+                "name": "Reporting and BI",
+                "description": "TCC’s Reporting and BI solutions allow customers to explore more and generate better insights into their data, through advancing analytic tools and representing them using different live visuals that will provide a better understanding."
+            },
+            {
+                "name": "Decisions Support Engine",
+                "description": "Our Engine can analyze massive sets of data of any business or organization to help solve organizational problems and support decision making. TCC will be your partner who helps you to success and grow!"
+            },
+            {
+                "name": "Business Reprocess Re-Engineer",
+                "description": "TCC has a strong analysis team with prominent experience to evaluate the current business process, and recommend a new process by redesigning the old one in accordance with the business’s true mission and objectives."
+            },
+            {
+                "name": "API Management",
+                "description": "Our mission in TCC is to provide our clients with top-notch technology solutions. API management will ease the process of controlling and managing application programming interfaces (APIs) such as enabling/disabling API, API throttling, setting policies, creating API keys and other tasks."
+            }
+        ],
+        "Big Data": [{
+                "name": "Intelligence & Innovation Development",
+                "description": "AT TCC, We strive to keep you up-to-date with the latest technology and computer science trends and updates. Therefore, we Innovate to develop unique and smart solutions for our clients, which include various solutions such as secure and encrypted applications, IoT applications, Cryptography, Block Chain, Code Review and exclusive solutions."
+            },
+            {
+                "name": "Data Analytics",
+                "description": "TCC Data Analytics service supports our clients in analyzing and gaining useful insights that can inform impactful business decisions in addition to utilizing different techniques and technologies such as data mining, machine learning and artificial intelligence. Our comprehensive services not only provide descriptive and diagnostic analysis, but also predictive and prescriptive analysis to ensure a complete host of solutions."
+            },
+            {
+                "name": "Data Integration & Cleansing",
+                "description": "TCC’s capabilities are huge, thanks to our team that mastered the discipline of data management by working on Collecting data from multiple/diverse sources in different formats and extracting them. Then it transforms the data to fit operational requirements and loads it into the centralized data lakes with high accuracy."
+            },
+            {
+                "name": "Data Storage & Modelling",
+                "description": "TCC has the ability to launch huge and successful projects by modelling and storing different kinds of data into multiple data stores, based on their formats (Document store, Graph store, NoSQL store, etc.) in addition to providing efficient and optimized access to the stored data."
+            },
+            {
+                "name": "Data Visualization",
+                "description": "Data Visualization is a part of our Big Data services, where clients can save time and increase their productivity by viewing different options that will support decision makers in viewing and examining findings and evidence. TCC provides and utilizes several visualization tools, including network charting, maps, etc., and creates interactive dashboards in order to help clients achieve the desired outcomes."
+            }
+        ]
+    }
+}

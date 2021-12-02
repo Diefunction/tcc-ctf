@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+  # First challenge (Easy)
+  trust:
+    build: ./trust
+    image: trust
+    container_name: trust
+    hostname: trust
+    ports:
+      - "8000:80"
+  # Second Challenge (Easy)
+  config-health-app:
+    build: ./config/health-app
+    image: health-app
+    container_name: health-app
+    hostname: health-app
+  config-nginx-proxy:
+    build: ./config/nginx-proxy
+    image: nginx-proxy
+    container_name: nginx-proxy
+    hostname: nginx-proxy
+    ports:
+      - "8001:80"
+  # Third Challenge (Medium)
+  extend:
+    build: ./extend
+    image: extend
+    container_name: extend
+    hostname: extend
+    ports:
+      - "8002:80"
+  # Forth Challenge (Hard)
+  poison:
+    build: ./poison
+    image: poison
+    container_name: poison
+    hostname: poison
+    ports:
+      - "8003:80"
+  
