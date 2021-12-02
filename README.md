@@ -1,22 +1,11 @@
 # Environment setup (Ubuntu)
 ## Requirments
-* install docker engine.
+* install docker-engine.
 * install docker-compose.
 
 # Installation
-Install git
-```bash
-sudo apt install git
-```
-Clone the repository
-```bash
-git clone https://github.com/Diefunction/tcc-ctf.git
-```
-
 Install Docker and docker-compose.
 ```bash
-# Uninstall old versions
-sudo apt-get remove docker docker-engine docker.io containerd runc
 # Update apt package index
 sudo apt update
 # Allow apt to use repository over HTTPS
@@ -46,4 +35,28 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Add user to docker group
 sudo usermod -aG docker $(whoami)
+```
+Reboot the machine.
+```bash
+sudo reboot
+```
+Install git.
+```bash
+sudo apt install git
+```
+Clone the repository.
+```bash
+git clone https://github.com/Diefunction/tcc-ctf.git
+```
+After cloning the repository change the current directory to the repository directory.
+```bash
+cd tcc-ctf
+```
+Builds Docker images from Dockerfiles.
+```bash
+docker-compose build
+```
+Create and start containers
+```bash
+docker-compose up
 ```
